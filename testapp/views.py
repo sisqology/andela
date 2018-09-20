@@ -16,7 +16,7 @@ from rest_framework.views import APIView
 def urlconsume(url):
     try:
         import pdb
-        pdb.set_trace()
+        # pdb.set_trace()
         url = url
         full_url = '{0}'.format(url)
         try:
